@@ -3,7 +3,7 @@ body{
 	background-color:white;
 	color:black;
 	font-size:20px;
-	font-family:Helvetica,sans-serif; 
+	font-family:Arial,sans-serif; 
 	text-align:center;
 	}	
 nav{
@@ -11,21 +11,21 @@ nav{
 	top:0;
 	left:0;
 	right:0;
-	/*border-color:black;*/
-	/*border-top:underline;*/
-	/*border-bottom-style:underline;*/
-	}	
+	padding:5px;
+	margin: 0px auto 0px auto;
+	border-top: 2px dotted black;
+	border-bottom: 2px dotted black;
+}
+
 nav a{
 	font-size:28px;
-	font-family: Helvetica,sans-serif;
-	padding-left: 3.0em;
-	padding-right: 3.0em;
+	font-family: verdana, sans-serif;
+	padding-left: 2.5em;
+	padding-right: 2.5em;
+	margin: 0px auto 0px auto; 
 	margin-top: 1.5em;
 	margin-bottom: 1.5em;
-	border-width: 100%;
-	/*border-color:black;*/
-	/*border-top:underline;*/
-	/*border-bottom: underline; */
+	text-decoration: none;
 	text-transform: uppercase;
 	}
 a{
@@ -42,14 +42,20 @@ h3{
 
 }
 header{
-	padding-top: 1.0em;
-    padding-bottom: .25em;
+	padding-top: 4.0em;
+    padding-bottom: .5em;
     font-size: 14px;
     font-family:Helvetica, sans-serif;
     font-style:italic;
     text-transform: uppercase;
     letter-spacing: 0.3em;
 }
+
+a:hover{
+	color:white;
+	background-color:transparent;
+}
+
 #herocali{
 background-image: url('images/cali_walk2.png');
 background-size:cover;
